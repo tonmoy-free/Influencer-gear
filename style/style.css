@@ -1,0 +1,46 @@
+/* shared style */
+.inter-font {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.gray{
+    color: #3A3A3A;
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* nav style */
+.navbar{
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.nav-title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .navbar,
+    .nav-links{
+        flex-direction: column;
+        align-items: center;
+    }
+}
