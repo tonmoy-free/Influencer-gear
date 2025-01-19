@@ -11,6 +11,12 @@
     font-weight: 100;
     font-style: normal;
 }
+.manrope-font {
+    font-family: "Manrope", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+  }
 
 .gray {
     color: #3A3A3A;
@@ -194,8 +200,9 @@
 .feature-container{
     max-width: 1300px;
     margin: 0 auto; 
-    gap: 130px; 
-    margin-top: 130px; 
+    gap: 120px; 
+    margin-top: 130px;
+    margin-bottom: 90px; 
 }
 
 .feature-tittle{
@@ -218,6 +225,25 @@
     font-size: 1rem;
     border-radius: 2px;
     border: none;
+}
+
+/* footer style */
+.footer-section{
+    background-color: #3A3A3A;
+    color: white;
+    text-align: center;
+}
+.footer-tittle{
+    font-weight: 700;
+    font-size: 1.6rem;
+    padding-top: 50px;
+    margin-bottom: 10px;
+}
+.footer-description{
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 10px;
+    padding-bottom: 70px;
 }
 
 /* responsive media query */
@@ -285,4 +311,16 @@
     .popular-cards{
         margin-right: 0px;
     }
+
+    /* feature section responsive */
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .feature-image{
+        width: 100%;
+    }
+    /* .feature-tittle{
+        margin-top: -70px;
+    } */
 }
