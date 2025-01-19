@@ -218,7 +218,7 @@
         height: 257px;
     }
 
-    /* icon responsive part */
+    /* icon responsive section */
     .icon {
         width: 400px;
         border-top: none;
@@ -234,5 +234,13 @@
 
     .icon img {
         height: 20px;
+    }
+
+    /* popular collection responsive section */
+    .popular-card-container{
+        grid-template-columns: repeat(1 ,1fr);
+    }
+    .popular-cards{
+        margin-right: 0px;
     }
 }
