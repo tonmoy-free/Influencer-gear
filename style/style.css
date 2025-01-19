@@ -141,6 +141,7 @@
     .icon-items{
         width: 400px;
         gap: 30px;
+        margin-right: 10px;
     }
     .icon img{
         height: 20px;
