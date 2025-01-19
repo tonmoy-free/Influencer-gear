@@ -180,6 +180,15 @@
     margin-top: 5px;
     margin-bottom: 27px;
 }
+.see-more{
+    text-align: right;
+    color: #E02C6D;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.se-more-link{
+    text-decoration: none;
+}
 
 
 /* responsive media query */
