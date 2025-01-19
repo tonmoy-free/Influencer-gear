@@ -211,9 +211,6 @@
         flex-direction: column-reverse;
         text-align: center;
     }
-    .banner-text{
-        text-align: center;
-    }
 
     .banner-tittle {
         line-height: 50px;
